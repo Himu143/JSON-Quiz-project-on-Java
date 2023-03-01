@@ -12,22 +12,30 @@ Program output:
 #### if user select option 1, then system will tell user to input a question, 4 options and correct ans to save data in a quiz bank. The quiz bank will be a json file. For an example,
 
 System>Please add a ques here:
+
 User>Which testing is done by developer?
+
 System>Input options.
 Option a:
+
 User> Unit Testing
 Option b:
 
 User> Integration Testing
+
 Option c:
 
 User> Sanity Testing
 Option d:
 
 User> Regression Testing
+
 System> Please input the correct ans
+
 User> a
+
 System: Quiz saved at the database. Do you want to add more? (y/n)
+
 if user press y, then the previous scenario will happen again otherwise the program will be closed.
 
 If user select option 2,  then,
@@ -37,8 +45,11 @@ a. Unit Testing
 b. Integration Testing
 c. Sanity Testing
 d. Regression Testing
+
 User> a
+
 System> Correct!
+
 else not correct,
 System: Not correct
 
